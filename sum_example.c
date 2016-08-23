@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-void get_sum_vals(int * sum, int a, int b)
+void get_sum_vals(int * sum, int a, int b) //sum using pointer
 {
   *sum = a + b;
 }
 
-int sum_vals(int a, int b)
+int sum_vals(int a, int b) //sum without pointer
 {
   return a + b;
 }
