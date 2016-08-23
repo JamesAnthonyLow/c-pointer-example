@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void get_sum_vals(int * sum, int a, int b)
 {
